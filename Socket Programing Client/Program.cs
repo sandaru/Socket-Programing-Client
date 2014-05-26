@@ -3,11 +3,18 @@
  */
 using System;
 using System.Collections.Generic;
+using System.Collections.Specialized;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Sockets;
+using System.Security.Cryptography;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using System.Reflection;
+using System.Runtime.InteropServices;
+
 namespace Socket_Programing_Client
 {
     class Program
@@ -22,7 +29,17 @@ namespace Socket_Programing_Client
             Console.Title = "Client";
             LoopConnect();
             sendLoop();
+            Console.WriteLine(getUuid());
             Console.ReadLine();
+        }
+
+        //Get UUID
+        private static String getUuid()
+        {
+            Assembly assembly = Assembly.GetExecutingAssembly();
+            var attribute = (GuidAttribute)assembly.GetCustomAttributes(typeof(GuidAttribute), true)[0];
+            var uuid = attribute.Value.ToString();
+            return uuid;
         }
 
         private static void sendLoop()
@@ -66,5 +83,6 @@ namespace Socket_Programing_Client
             Console.WriteLine("Connected");
 
         }
+        
     }
 }
