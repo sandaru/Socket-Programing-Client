@@ -1,0 +1,6 @@
+c:\users\pusalk\documents\visual studio 2012\Projects\Socket Programing Client\Socket Programing Client\bin\Debug\Socket Programing Client.exe.config
+c:\users\pusalk\documents\visual studio 2012\Projects\Socket Programing Client\Socket Programing Client\bin\Debug\Socket Programing Client.exe
+c:\users\pusalk\documents\visual studio 2012\Projects\Socket Programing Client\Socket Programing Client\bin\Debug\Socket Programing Client.pdb
+c:\users\pusalk\documents\visual studio 2012\Projects\Socket Programing Client\Socket Programing Client\obj\Debug\Socket Programing Client.csprojResolveAssemblyReference.cache
+c:\users\pusalk\documents\visual studio 2012\Projects\Socket Programing Client\Socket Programing Client\obj\Debug\Socket Programing Client.exe
+c:\users\pusalk\documents\visual studio 2012\Projects\Socket Programing Client\Socket Programing Client\obj\Debug\Socket Programing Client.pdb
